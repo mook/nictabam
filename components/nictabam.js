@@ -64,7 +64,9 @@ Nictabam.prototype = {
   
   onEditorKeyPress: function Nictabam_onEditorKeyPress(aEvent) {
     // we only care about tab completion
-    if (aEvent.keyCode != aEvent.DOM_VK_TAB) {
+    if ((aEvent.keyCode != aEvent.DOM_VK_TAB) ||
+        aEvent.ctrlKey || aEvent.altKey || aEvent.shiftKey || aEvent.metaKey)
+    {
       return;
     }
     aEvent.preventDefault();
