@@ -1,0 +1,3 @@
+component {df0dfd97-9261-4207-80c7-6634311bfe55} components/nictabam.js
+contract @instantbird.extensions.mook.wordpress.com/nictabam;1 {df0dfd97-9261-4207-80c7-6634311bfe55}
+category profile-after-change NictabamObserver @instantbird.extensions.mook.wordpress.com/nictabam;1
