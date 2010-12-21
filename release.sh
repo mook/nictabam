@@ -10,7 +10,7 @@ if test ! -d releases ; then
   mkdir releases
 fi
 if test -z "$1" ; then
-  for tag in `git tag` ; do
+  for tag in `git tag` HEAD ; do
     do_release "$tag"
   done
 else
