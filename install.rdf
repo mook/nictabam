@@ -5,7 +5,7 @@
   <Description about="urn:mozilla:install-manifest">
     <em:id>nictabam@instantbird.extensions.mook.wordpress.com</em:id>
     <em:name>Nictabam</em:name>
-    <em:version>0.0.0.20101219</em:version>
+    <em:version>0.0.0.20101220</em:version>
     <em:description>Nickname completion</em:description>
     <em:creator>Mook</em:creator>
     <em:homepageURL>https://github.com/mook/nictabam</em:homepageURL>
